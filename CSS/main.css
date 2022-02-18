@@ -112,10 +112,11 @@ h2, h3 {
   letter-spacing: -0.05em;
   color: #fff;
   margin: 0 7%;
-  padding: 2rem 1rem;
+  padding: 2rem 0;
 }
 
 /* RESPONSIVE TABLET */
+
 @media (min-width: 740px) {
   .top-section {
     width: 100%;
@@ -143,6 +144,7 @@ h2, h3 {
 }
 
 /* RESPONSIVE DESKTOP */
+
 @media (min-width: 1000px) {
   .top-left {
     width: 50%;
@@ -180,13 +182,20 @@ h2, h3 {
 
   .review-card {
     margin-right: 20px;
+    max-height: 18rem;
   }
 
   .review-card-1 {
     margin-left: 10%;
   }
+  
+  
+  .review-card-2 {
+    margin-top: 5%;
+  }
 
   .review-card-3 {
+    margin-top: 10%;
     margin-right: 10%;
   }
 }
