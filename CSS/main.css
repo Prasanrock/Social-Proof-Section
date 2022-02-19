@@ -2,6 +2,9 @@ body {
   font-family: 'Spartan', sans-serif;
   text-align: center;
   margin-top:  0;
+  background-image: url("../images/bg-pattern-top-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: top left;
 }
 
 h1 {
@@ -25,9 +28,13 @@ h2, h3 {
   margin: -2% 5% 5% 0;
 }
 
+.section{
+  background-image: url("../images/bg-pattern-bottom-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
 /* TOP SECTION */
-
-
 
 /* TOP LEFT */
 
