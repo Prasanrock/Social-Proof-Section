@@ -31,7 +31,8 @@ h2, h3 {
 .section{
   background-image: url("../images/bg-pattern-bottom-desktop.svg");
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: bottom right;
+  background-size: 60rem;
 }
 
 /* TOP SECTION */
